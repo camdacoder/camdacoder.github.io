@@ -169,7 +169,7 @@ h1 {
 
 .header-box {
   border: 5px solid #333; /* Thick border */
-  padding: 20px;
+  padding: 20px 40px; /* 20px padding on top and bottom, 40px padding on left and right */
   text-align: center;
   margin-bottom: 20px; /* Space below */
   width: 80%; /* Box width */
@@ -198,4 +198,3 @@ h1 {
     background-position: 100% 100%;
   }
 }
-
