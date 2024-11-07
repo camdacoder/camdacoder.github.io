@@ -15,52 +15,116 @@ heading.textContent = `Here's some ${genre} songs I'd recommend if you're feelin
 
 const songs = {
   happy: {
-    electronic: ["Happy - Pharrell Williams", "Walking on Sunshine - Katrina and the Waves"],
-    hiphop: ["Smile - Nat King Cole", "Count on Me - Bruno Mars"],
-    pop: ["Eye of the Tiger - Survivor", "Can’t Hold Us - Macklemore & Ryan Lewis"],
-    rockmetal: ["On Top of the World - Imagine Dragons", "Send Me on My Way - Rusted Root"]
+    electronic: [
+      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
+      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+    ],
+    hiphop: [
+      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
+      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+    ],
+    pop: [
+      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
+      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+    ],
+    rockmetal: [
+      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
+      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+    ]
   },
   sad: {
-    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
-    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
-    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
-    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+    electronic: [
+      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
+      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+    ],
+    hiphop: [
+      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
+      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+    ],
+    pop: [
+      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
+      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+    ],
+    rockmetal: [
+      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
+      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+    ]
   },
   excited: {
-    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
-    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
-    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
-    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+    electronic: [
+      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
+      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+    ],
+    hiphop: [
+      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
+      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+    ],
+    pop: [
+      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
+      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+    ],
+    rockmetal: [
+      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
+      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+    ]
   },
   motivated: {
-    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
-    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
-    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
-    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+    electronic: [
+      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
+      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+    ],
+    hiphop: [
+      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
+      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+    ],
+    pop: [
+      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
+      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+    ],
+    rockmetal: [
+      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
+      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+    ]
   }
 };
+
+const selectedSongs = songs[mood][genre];
 
 function displaySongs(songs) {
   const songContainer = document.getElementById('song-container');
   
-  // Clear the song container (in case the page is reloaded)
+  // Clear the song container first (in case there are old songs)
   songContainer.innerHTML = '';
 
-// Check if there are songs for the selected mood and genre, and display them
-if (songs[mood] && songs[mood][genre]) {
-  const songList = songs[mood][genre];
-  songList.forEach(song => {
+  // Loop through each song and create a song card
+  songs.forEach(song => {
+    // Create a div for the song card
     const songCard = document.createElement('div');
     songCard.classList.add('song-suggestion');
 
-    const songTitleAndName = document.createElement('div');
-    songTitleAndName.classList.add('song-title-and-name');
-    songTitleAndName.textContext = song;
-    songCard.appendChild(songTitleAndName);
+    // Create the song title element
+    const songTitle = document.createElement('div');
+    songTitle.classList.add('song-title');
+    songTitle.textContent = song.title;
+
+    // Create the play button
+    const playButton = document.createElement('button');
+    playButton.classList.add('play-btn');
+    playButton.textContent = 'Play';
+
+    // Add a click event listener to the play button to go to YouTube
+    playButton.addEventListener('click', () => {
+      window.open(song.url, '_blank'); // Opens the YouTube link in a new tab
+    });
+
+    // Append the song title and button to the song card
+    songCard.appendChild(songTitle);
+    songCard.appendChild(playButton);
+
+    // Append the song card to the container
     songContainer.appendChild(songCard);
   });
-} else {
-  songContainer.textContent = "No songs available for this selection.";
 }
-}
-displaySongs(songs);
+
+// Call the function to display the songs
+displaySongs(selectedSongs);
