@@ -94,19 +94,19 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-.elec-link {
+#elec-link {
   background-color: #1E90FF; /* Neon blue for Electronic */
 }
 
-.hip-hop-link {
+#hip-hop-link {
   background-color: #FFD700; /* Gold for Hip Hop */
 }
 
-.pop-link {
+#pop-link {
   background-color: #FF1493; /* Hot pink for Pop */
 }
 
-.rock-metal-link {
+#rock-metal-link {
   background-color: #2F4F4F; /* Dark gray for Metal/Rock */
 }
 
@@ -115,19 +115,19 @@ h1 {
   background-color: #45a049;
 }
 
-.electronic:hover {
+#elec-link:hover {
   background-color: #1C86EE; /* Darker blue */
 }
 
-.hip-hop:hover {
+#hip-hop-link:hover {
   background-color: #FFB900; /* Darker gold */
 }
 
-.pop:hover {
+#pop-link:hover {
   background-color: #FF69B4; /* Darker pink */
 }
 
-.metal-rock:hover {
+#rock-metal-link:hover {
   background-color: #4F585E; /* Darker gray */
 }
 
