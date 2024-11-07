@@ -11,22 +11,33 @@ const { mood, genre } = getParams();
 const heading = document.getElementById('selection-heading');
 const songContainer = document.getElementById('song-container');
 
-heading.textContent = `Songs for a ${mood} mood with ${genre} vibes`;
+heading.textContent = `Here's a ${genre} song Cam would recommend if you're feeling ${mood} :`;
 
 const songs = {
   happy: {
-    comedy: ["Happy - Pharrell Williams", "Walking on Sunshine - Katrina and the Waves"],
-    drama: ["Smile - Nat King Cole", "Count on Me - Bruno Mars"],
-    action: ["Eye of the Tiger - Survivor", "Can’t Hold Us - Macklemore & Ryan Lewis"],
-    adventure: ["On Top of the World - Imagine Dragons", "Send Me on My Way - Rusted Root"]
+    electronic: ["Happy - Pharrell Williams", "Walking on Sunshine - Katrina and the Waves"],
+    hiphop: ["Smile - Nat King Cole", "Count on Me - Bruno Mars"],
+    pop: ["Eye of the Tiger - Survivor", "Can’t Hold Us - Macklemore & Ryan Lewis"],
+    rockmetal: ["On Top of the World - Imagine Dragons", "Send Me on My Way - Rusted Root"]
   },
   sad: {
-    comedy: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
-    drama: ["Someone Like You - Adele", "Stay - Rihanna"],
-    action: ["Fix You - Coldplay", "The Scientist - Coldplay"],
-    adventure: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
+    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
+    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
+    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+  },
+  excited: {
+    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
+    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
+    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
+    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
+  },
+  motivated: {
+    electronic: ["Don't Worry, Be Happy - Bobby McFerrin", "Here Comes the Sun - The Beatles"],
+    hiphop: ["Someone Like You - Adele", "Stay - Rihanna"],
+    pop: ["Fix You - Coldplay", "The Scientist - Coldplay"],
+    rockmetal: ["Everybody Hurts - R.E.M.", "Let Her Go - Passenger"]
   }
-  // Add more moods and genres as needed
 };
 
 // Check if there are songs for the selected mood and genre, and display them
