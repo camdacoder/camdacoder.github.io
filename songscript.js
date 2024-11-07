@@ -11,7 +11,7 @@ const { mood, genre } = getParams();
 const heading = document.getElementById('selection-heading');
 const songContainer = document.getElementById('song-container');
 
-heading.textContent = `Here's a ${genre} song Cam would recommend if you're feeling ${mood} :`;
+heading.textContent = `Here's some ${genre} songs I'd recommend if you're feeling ${mood} :`;
 
 const songs = {
   happy: {
