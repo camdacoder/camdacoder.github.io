@@ -4,7 +4,7 @@ function getMoodFromUrl() {
 }
 
 const mood = getMoodFromUrl();
-document.getElementById('comedy-link').href = `songselector.html?mood=${mood}&genre=comedy`;
-document.getElementById('drama-link').href = `songselector.html?mood=${mood}&genre=drama`;
-document.getElementById('action-link').href = `songselector.html?mood=${mood}&genre=action`;
-document.getElementById('adventure-link').href = `songselector.html?mood=${mood}&genre=adventure`;
+document.getElementById('elec-link').href = `songselector.html?mood=${mood}&genre=electronic`;
+document.getElementById('hip-hop-link').href = `songselector.html?mood=${mood}&genre=hiphop`;
+document.getElementById('pop-link').href = `songselector.html?mood=${mood}&genre=pop`;
+document.getElementById('rock-metal-link').href = `songselector.html?mood=${mood}&genre=rockmetal`;
