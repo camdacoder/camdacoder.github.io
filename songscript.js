@@ -40,14 +40,27 @@ const songs = {
   }
 };
 
+function displaySongs(songs) {
+  const songContainer = document.getElementById('song-container');
+  
+  // Clear the song container (in case the page is reloaded)
+  songContainer.innerHTML = '';
+
 // Check if there are songs for the selected mood and genre, and display them
 if (songs[mood] && songs[mood][genre]) {
   const songList = songs[mood][genre];
   songList.forEach(song => {
-    const songItem = document.createElement('p');
-    songItem.textContent = song;
-    songContainer.appendChild(songItem);
+    const songCard = document.createElement('div');
+    songCard.classList.add('song-suggestion');
+
+    const songTitleAndName = document.createElement('div');
+    songTitleAndName.classList.add('song-title-and-name');
+    songTitleAndName.textContext = song;
+    songCard.appendChild(songTitleAndName);
+    songContainer.appendChild(songCard);
   });
 } else {
   songContainer.textContent = "No songs available for this selection.";
 }
+}
+displaySongs(songs);
