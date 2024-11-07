@@ -27,7 +27,7 @@ const songs = {
       { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
       { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
     ],
-    rockmetal: [
+    country: [
       { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
       { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
     ]
@@ -45,7 +45,7 @@ const songs = {
       { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
       { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
     ],
-    rockmetal: [
+    country: [
       { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
       { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
     ]
@@ -63,7 +63,7 @@ const songs = {
       { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
       { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
     ],
-    rockmetal: [
+    country: [
       { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
       { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
     ]
@@ -81,7 +81,7 @@ const songs = {
       { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
       { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
     ],
-    rockmetal: [
+    country: [
       { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
       { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
     ]
