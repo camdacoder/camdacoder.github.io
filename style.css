@@ -44,6 +44,23 @@ h1 {
   transition: background-color 0.3s;
 }
 
+/*Happy Box Styling*/
+.box:nth-child(1) {
+  background-color: #FFD700; /* Happy - Bright Yellow */
+}
+/*Sad Box Styling*/
+.box:nth-child(2) {
+  background-color: #6495ED; /* Sad - Soft Blue */
+}
+/*Excited Box Styling*/
+.box:nth-child(3) {
+  background-color: #FF4500; /* Excited - Vibrant Orange */
+}
+/*Motivated Box Styling*/
+.box:nth-child(4) {
+  background-color: #32CD32; /* Motivated - Bold Green */
+}
+
 .box:hover {
   background-color: #45a049;
 }
