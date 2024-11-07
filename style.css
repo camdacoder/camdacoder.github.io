@@ -94,19 +94,19 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-.electronic {
+.elec-link {
   background-color: #1E90FF; /* Neon blue for Electronic */
 }
 
-.hip-hop {
+.hip-hop-link {
   background-color: #FFD700; /* Gold for Hip Hop */
 }
 
-.pop {
+.pop-link {
   background-color: #FF1493; /* Hot pink for Pop */
 }
 
-.metal-rock {
+.rock-metal-link {
   background-color: #2F4F4F; /* Dark gray for Metal/Rock */
 }
 
