@@ -31,19 +31,58 @@ h1 {
 
 /*Click boxes for moods.*/
 .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-  background-color: #4CAF50;
-  color: white;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
   text-decoration: none;
-  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
   border-radius: 8px;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+/* Custom colors for each genre */
+.electronic {
+  background-color: #1E90FF; /* Neon blue for Electronic */
+}
+
+.hip-hop {
+  background-color: #FFD700; /* Gold for Hip Hop */
+}
+
+.pop {
+  background-color: #FF1493; /* Hot pink for Pop */
+}
+
+.metal-rock {
+  background-color: #2F4F4F; /* Dark gray for Metal/Rock */
+}
+
+/* Hover effects */
+.box:hover {
+  opacity: 0.8; /* Slightly darken the box */
+}
+
+/* Darken effect on hover for each genre */
+.electronic:hover {
+  background-color: #1C86EE; /* Darker blue */
+}
+
+.hip-hop:hover {
+  background-color: #FFB900; /* Darker gold */
+}
+
+.pop:hover {
+  background-color: #FF69B4; /* Darker pink */
+}
+
+.metal-rock:hover {
+  background-color: #4F585E; /* Darker gray */
+}
+
+/*Only applies to homepage. Genres overwritten.*/
 /*Happy Box Styling*/
 .box:nth-child(1) {
   background-color: #FFD700; /* Happy - Bright Yellow */
