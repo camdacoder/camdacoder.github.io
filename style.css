@@ -6,22 +6,74 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Light gray background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Main heading for mood question. */
-h1 {
+main {
+  padding: 40px;
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 2em;
 }
 
-/* Container for click-boxes */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.song-suggestion {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 15px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.song-suggestion:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f4f4f4;
+}
+
+.song-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+}
+
+.song-artist {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.play-btn {
+  padding: 10px 20px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+  background-color: #006bb3;
+}
+
 .box-container {
   display: flex;
   gap: 15px;
@@ -29,7 +81,6 @@ h1 {
   justify-content: center;
 }
 
-/*Click boxes for moods.*/
 .box {
   display: inline-block;
   padding: 20px;
@@ -43,7 +94,6 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-/* Custom colors for each genre */
 .electronic {
   background-color: #1E90FF; /* Neon blue for Electronic */
 }
@@ -60,13 +110,11 @@ h1 {
   background-color: #2F4F4F; /* Dark gray for Metal/Rock */
 }
 
-/* Hover effects */
 .box:hover {
   opacity: 0.8; 
   background-color: #45a049;
 }
 
-/* Darken effect on hover for each genre */
 .electronic:hover {
   background-color: #1C86EE; /* Darker blue */
 }
@@ -83,7 +131,6 @@ h1 {
   background-color: #4F585E; /* Darker gray */
 }
 
-/*Only applies to homepage. Genres overwritten.*/
 /*Happy Box Styling*/
 .box:nth-child(1) {
   background-color: #FFD700; /* Happy - Bright Yellow */
