@@ -168,19 +168,34 @@ h1 {
 }
 
 .header-box {
-  border: 5px solid #333; /* Increased border thickness to 5px */
+  border: 5px solid #333; /* Thick border */
   padding: 20px;
   text-align: center;
-  margin-bottom: 20px; /* Adds space below the header box */
-  width: 80%; /* Makes the box width 80% of the page, adjust as needed */
+  margin-bottom: 20px; /* Space below */
+  width: 80%; /* Box width */
   margin-left: auto;
-  margin-right: auto; /* Centers the box horizontally */
-  background-color: #f9f9f9; /* Light background color for contrast */
+  margin-right: auto; /* Centers the box */
+  background-color: #f9f9f9; /* Light background for contrast */
 }
 
+/* Rainbow effect for the text */
 .header-box h1 {
-  font-size: 2em;
-  color: #333; /* Dark text for good readability */
-  margin: 0; /* Removes default margin on the h1 */
+  font-size: 2.5em; /* Adjust the font size as needed */
+  font-weight: bold;
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
+  background-clip: text; /* Makes the background gradient clip to the text */
+  -webkit-background-clip: text; /* Ensures it works in webkit browsers (like Chrome) */
+  color: transparent; /* Hides the original text color */
+  animation: rainbow 3s ease infinite; /* Animates the gradient */
+}
+
+/* Animation for smooth color transition */
+@keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
