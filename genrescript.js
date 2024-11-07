@@ -7,4 +7,4 @@ const mood = getMoodFromUrl();
 document.getElementById('elec-link').href = `songselector.html?mood=${mood}&genre=electronic`;
 document.getElementById('hip-hop-link').href = `songselector.html?mood=${mood}&genre=hiphop`;
 document.getElementById('pop-link').href = `songselector.html?mood=${mood}&genre=pop`;
-document.getElementById('rock-metal-link').href = `songselector.html?mood=${mood}&genre=rockmetal`;
+document.getElementById('rock-metal-link').href = `songselector.html?mood=${mood}&genre=rock/metal`;
