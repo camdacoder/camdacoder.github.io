@@ -52,38 +52,38 @@ const songs = {
   },
   excited: {
     electronic: [
-      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
-      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+      { title: "Teleport Massive - Bassnectar", url: "https://www.youtube.com/watch?v=oGCc0WqvVT4" },
+      { title: "Now - Bassnectar", url: "https://www.youtube.com/watch?v=p5qdsRFkCoQ" }
     ],
     hiphop: [
-      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
-      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+      { title: "Lose Yourself - Eminem", url: "https://www.youtube.com/watch?v=xFYQQPAOz7Y" },
+      { title: "SICKO MODE - Travis Scott", url: "https://www.youtube.com/watch?v=6ONRf7h3Mdk" }
     ],
     pop: [
-      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
-      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+      { title: "Blinding Lights - The Weeknd", url: "https://www.youtube.com/watch?v=4NRXx6U8ABQ" },
+      { title: "Levitating - Dua Lipa", url: "https://www.youtube.com/watch?v=TUVcZfQe-Kw" }
     ],
     country: [
-      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
-      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+      { title: "Cruise - Florida Georgia Line", url: "https://www.youtube.com/watch?v=8PvebsWcpto" },
+      { title: "Good Time - Alan Jackson", url: "https://www.youtube.com/watch?v=PSROm-vgVRk" }
     ]
   },
   motivated: {
     electronic: [
-      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
-      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+      { title: "One Thing - Bassnectar", url: "https://www.youtube.com/watch?v=QOjZjqnO50A" },
+      { title: "Stay - Zedd/Alessia Cara", url: "https://www.youtube.com/watch?v=yWEK4v9AVKQ" }
     ],
     hiphop: [
-      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
-      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+      { title: "Empire State of Mind - Jay-Z/Alicia Keys", url: "https://www.youtube.com/watch?v=vk6014HuxcE" },
+      { title: "Stronger - Kanye West", url: "https://www.youtube.com/watch?v=PsO6ZnUZI0g" }
     ],
     pop: [
       { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
-      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+      { title: "Rise - Katy Perry", url: "https://www.youtube.com/watch?v=hdw1uKiTI5c" }
     ],
     country: [
-      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
-      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+      { title: "Live Like You Were Dying", url: "https://www.youtube.com/watch?v=_9TShlMkQnc" },
+      { title: "My Wish - Rascal Flatts", url: "https://www.youtube.com/watch?v=NSWTZllisl0" }
     ]
   }
 };
