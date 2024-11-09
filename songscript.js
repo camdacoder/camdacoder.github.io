@@ -16,20 +16,20 @@ heading.textContent = `Here's some ${genre} songs I'd recommend if you're feelin
 const songs = {
   happy: {
     electronic: [
-      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
-      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+      { title: "Rainbows and Waterfalls - Pretty Lights", url: "https://www.youtube.com/watch?v=7NSVB-4q3kk" },
+      { title: "HyperParadise - Hermitude(Flume Remix)", url: "https://www.youtube.com/watch?v=dIyKy4A4kBU" }
     ],
     hiphop: [
-      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
-      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+      { title: "Best Day Ever - Mac Miller", url: "https://www.youtube.com/watch?v=NR8UDU57i_8" },
+      { title: "Goodlife - Kanye West ft. T-Pain", url: "https://www.youtube.com/watch?v=FEKEjpTzB0Q" }
     ],
     pop: [
-      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
-      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+      { title: "Party in the USA - Miley Cyrus", url: "https://www.youtube.com/watch?v=M11SvDtPBhA" },
+      { title: "I Gotta Feeling - Black Eyes Peas", url: "https://www.youtube.com/watch?v=uSD4vsh1zDA" }
     ],
     country: [
-      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
-      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+      { title: "Wagon Wheel - Darius Rucker", url: "https://www.youtube.com/watch?v=hvKyBcCDOB4" },
+      { title: "Life is a Highway", url: "https://www.youtube.com/watch?v=5tXh_MfrMe0" }
     ]
   },
   sad: {
@@ -38,7 +38,7 @@ const songs = {
       { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
     ],
     hiphop: [
-      { title: "Smile - Nat King Cole", url: "https://www.youtube.com/watch?v=VwHySCbYjMI" },
+      { title: "Sucker For Pain - Wiz Khalifa", url: "https://www.youtube.com/watch?v=-59jGD4WrmE" },
       { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
     ],
     pop: [
@@ -46,8 +46,8 @@ const songs = {
       { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
     ],
     country: [
-      { title: "On Top of the World - Imagine Dragons", url: "https://www.youtube.com/watch?v=Pyf4NqPvbMw" },
-      { title: "Send Me on My Way - Rusted Root", url: "https://www.youtube.com/watch?v=2hT8WgqicbI" }
+      { title: "Landslide - Fleetwood Mac", url: "https://www.youtube.com/watch?v=mXonGAEPQp8" },
+      { title: "Whiskey Lullaby - Brad Paisley", url: "https://www.youtube.com/watch?v=IZbN_nmxAGk" }
     ]
   },
   excited: {
