@@ -34,16 +34,16 @@ const songs = {
   },
   sad: {
     electronic: [
-      { title: "Happy - Pharrell Williams", url: "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
-      { title: "Walking on Sunshine - Katrina and the Waves", url: "https://www.youtube.com/watch?v=K7Wb3k1HvxA" }
+      { title: "Never Be Like You - Flume", url: "https://www.youtube.com/watch?v=Ly7uj0JwgKg" },
+      { title: "Shelter - Porter Robinson", url: "https://www.youtube.com/watch?v=fzQ6gRAEoy0" }
     ],
     hiphop: [
       { title: "Sucker For Pain - Wiz Khalifa", url: "https://www.youtube.com/watch?v=-59jGD4WrmE" },
-      { title: "Count on Me - Bruno Mars", url: "https://www.youtube.com/watch?v=Yg3Rz4gp5nA" }
+      { title: "Mockingbird - Eminem", url: "https://www.youtube.com/watch?v=S9bCLPwzSC0" }
     ],
     pop: [
-      { title: "Eye of the Tiger - Survivor", url: "https://www.youtube.com/watch?v=btPJPFnesV4" },
-      { title: "Can’t Hold Us - Macklemore & Ryan Lewis", url: "https://www.youtube.com/watch?v=2zNSgSzhD1A" }
+      { title: "Someone Like You - Adele", url: "https://www.youtube.com/watch?v=hLQl3WQQoQ0" },
+      { title: "The A-Team - Ed Sheeran", url: "https://www.youtube.com/watch?v=UAWcs5H-qgQ" }
     ],
     country: [
       { title: "Landslide - Fleetwood Mac", url: "https://www.youtube.com/watch?v=mXonGAEPQp8" },
