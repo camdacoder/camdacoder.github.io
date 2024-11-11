@@ -1,12 +1,3 @@
-
-function getParams() {
-  const urlParams = new URLSearchParams(window.location.search);
-  return {
-    mood: urlParams.get('mood'),
-    genre: urlParams.get('genre')
-  };
-}
-
 const { mood, genre } = getParams();
 const heading = document.getElementById('selection-heading');
 const songContainer = document.getElementById('song-container');
@@ -126,4 +117,12 @@ function displaySongs(songs) {
     // Append the song card to the container
     songContainer.appendChild(songCard);
   });
+}
+
+function getParams() {
+  const urlParams = new URLSearchParams(window.location.search);
+  return {
+    mood: urlParams.get('mood'),
+    genre: urlParams.get('genre')
+  };
 }
