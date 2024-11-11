@@ -7,7 +7,7 @@ Author : Cam Micah
 Note : Personal website to be submitted for NextChapter. 
 
 Project Structure :
-
+'''
 mood-tune-selector/
 ├── index.html          # Homepage
 ├── style.css           # CSS file for styling
@@ -15,6 +15,6 @@ mood-tune-selector/
 ├── genre.html          # Genre selection page
 ├── songselector.html   # Song recommendations page
 └── README.md           # Project documentation
-
+'''
 
 
