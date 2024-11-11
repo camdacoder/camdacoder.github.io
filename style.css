@@ -184,35 +184,39 @@ h1 {
   background-color: #45a049; /* Darker green */
 }
 
-/* Header box styling */
+/* Container for the header with the rainbow text effect */
 .header-box {
   border: 5px solid #333; /* Thick border */
-  padding: 20px 40px; /* Padding on top/bottom and left/right */
-  text-align: center; /* Center content */
+  padding: 20px 40px; /* 20px padding on top and bottom, 40px padding on left and right */
+  text-align: center;
   margin-bottom: 20px; /* Space below */
-  width: 80%; /* Centered box width */
+  width: 80%; /* Box width */
   margin-left: auto;
   margin-right: auto; /* Centers the box */
   background-color: #f9f9f9; /* Light background for contrast */
 }
 
-/* Rainbow effect styling for the header text */
+/* Rainbow text effect */
 .header-box h1 {
-  font-size: 2.5em; /* Larger font */
+  font-size: 2.5em;
   font-weight: bold;
   background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
-  background-clip: text; /* Clips gradient to text */
-  -webkit-background-clip: text; /* For webkit browsers */
-  color: transparent; /* Hides original text color */
-  animation: rainbow 3s ease infinite; /* Smoothly animates colors */
+  background-size: 300% 300%; /* Make the gradient bigger for smooth animation */
+  background-clip: text;
+  -webkit-background-clip: text; /* For WebKit-based browsers */
+  color: transparent; /* Hide original text color */
+  animation: rainbow 5s linear infinite; /* Apply the animation */
 }
 
-/* Animation keyframes for smooth color transition in rainbow effect */
+/* Animation to move the gradient */
 @keyframes rainbow {
   0% {
     background-position: 0% 0%;
   }
-  100% {
+  50% {
     background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
   }
 }
