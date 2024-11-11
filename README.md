@@ -14,7 +14,7 @@ mood-tune-selector/
 ├── script.js           # JavaScript file for dynamic functionality
 ├── genre.html          # Genre selection page
 ├── songselector.html   # Song recommendations page
-└── README.md           # Project documentation
+└── README.md           # Website notes
 ```
 
 
