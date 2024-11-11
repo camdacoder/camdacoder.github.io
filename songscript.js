@@ -13,6 +13,10 @@ const songContainer = document.getElementById('song-container');
 
 heading.textContent = `Here's some ${genre} songs I'd recommend if you're feeling ${mood} :`;
 
+const selectedSongs = songs[mood][genre];
+
+displaySongs(selectedSongs);
+
 const songs = {
   happy: {
     electronic: [
@@ -88,8 +92,6 @@ const songs = {
   }
 };
 
-const selectedSongs = songs[mood][genre];
-
 function displaySongs(songs) {
   const songContainer = document.getElementById('song-container');
   
@@ -125,6 +127,3 @@ function displaySongs(songs) {
     songContainer.appendChild(songCard);
   });
 }
-
-// Call the function to display the songs
-displaySongs(selectedSongs);
