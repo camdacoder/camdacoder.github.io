@@ -1,6 +1,6 @@
 Project Title: Cam's Mood Tune Selector 🎶
 
-A simple web application that allows users to select their mood and music genre to receive personalized song recommendations. This app is built with HTML, CSS, and JavaScript.
+A simple web application that allows users to select their mood and music genre to receive personalized song recommendations. This site is built with HTML, CSS, and JavaScript.
 
 Author : Cam Micah
 
