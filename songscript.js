@@ -1,13 +1,4 @@
-const { mood, genre } = getParams();
-const heading = document.getElementById('selection-heading');
-const songContainer = document.getElementById('song-container');
-
-heading.textContent = `Here's some ${genre} songs I'd recommend if you're feeling ${mood} :`;
-
-const selectedSongs = songs[mood][genre];
-
-displaySongs(selectedSongs);
-
+//Locally stored data for song selection. 
 const songs = {
   happy: {
     electronic: [
@@ -82,6 +73,16 @@ const songs = {
     ]
   }
 };
+
+const { mood, genre } = getParams();
+const heading = document.getElementById('selection-heading');
+const songContainer = document.getElementById('song-container');
+
+heading.textContent = `Here's some ${genre} songs I'd recommend if you're feeling ${mood} :`;
+
+const selectedSongs = songs[mood][genre];
+
+displaySongs(selectedSongs);
 
 function displaySongs(songs) {
   const songContainer = document.getElementById('song-container');
