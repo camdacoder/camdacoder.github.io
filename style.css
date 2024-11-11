@@ -1,51 +1,57 @@
-
+/* Reset margin, padding, and box-sizing for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Main body styling */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif; /* Font style */
   background-color: #d3d3d3; /* Light gray background */
-  color: #333;
+  color: #333; /* Dark text color */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Main content container */
 main {
-  padding: 40px;
-  text-align: center;
+  padding: 40px; /* Outer spacing around content*/
+  text-align: center; /* Center-align text */
 }
 
+/* Styling for main heading */
 h1 {
-  font-size: 36px;
-  color: #333;
-  margin-bottom: 30px;
+  font-size: 36px; 
+  color: #333; /* Dark text color */
+  margin-bottom: 30px; /* Space below */
 }
 
+/* Styling for individual song suggestion box */
 .song-suggestion {
   display: inline-block;
-  background-color: #fff;
-  color: #333;
-  padding: 20px;
-  margin: 15px;
-  width: 250px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  padding: 20px; /* Space between element + border */
+  margin: 15px; /* Space outside the border of song */
+  width: 250px; /* Fixed width */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: all 0.3s ease; /* Smooth transition */
   cursor: pointer;
-  font-size: 18px;
-  text-align: center;
+  font-size: 18px; /* Font size */
+  text-align: center; /* Center text */
 }
 
+/* Hover effect for song suggestion box */
 .song-suggestion:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: #f4f4f4;
+  transform: translateY(-5px); /* Move up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow */
+  background-color: #f4f4f4; /* Slightly darker background */
 }
 
+/* Styling for song title */
 .song-title {
   font-size: 20px;
   font-weight: 600;
@@ -53,34 +59,39 @@ h1 {
   color: #2a2a2a;
 }
 
+/* Styling for song artist text */
 .song-artist {
   font-size: 16px;
   color: #555;
   margin-bottom: 15px;
 }
 
+/* Styling for play button */
 .play-btn {
   padding: 10px 20px;
-  background-color: #1E90FF;
-  color: white;
+  background-color: #1E90FF; /* Blue background */
+  color: white; /* White text */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth color transition */
 }
 
+/* Hover effect for play button */
 .play-btn:hover {
-  background-color: #006bb3;
+  background-color: #006bb3; /* Darker blue */
 }
 
+/* Container for genre selection boxes */
 .box-container {
   display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
+  gap: 15px; /* Space between boxes */
+  flex-wrap: wrap; /* Wrap boxes to new lines */
+  justify-content: center; /* Center boxes in container */
 }
 
+/* General box styling */
 .box {
   display: inline-block;
   padding: 20px;
@@ -89,11 +100,12 @@ h1 {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 8px; /* Rounded corners */
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth background transition */
 }
 
+/* Specific color for each genre box */
 #elec-link {
   background-color: #1E90FF; /* Neon blue for Electronic */
 }
@@ -110,11 +122,13 @@ h1 {
   background-color: #2F4F4F; /* Dark gray for Metal/Rock */
 }
 
+/* Hover effect for all genre boxes */
 .box:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
   background-color: #45a049;
 }
 
+/* Hover effect for each specific genre box */
 #elec-link:hover {
   background-color: #1C86EE; /* Darker blue */
 }
@@ -131,65 +145,69 @@ h1 {
   background-color: #4F585E; /* Darker gray */
 }
 
-/*Happy Box Styling*/
+/* Color styling for each mood box */
 .box:nth-child(1) {
   background-color: #FFD700; /* Happy - Bright Yellow */
 }
-/*Sad Box Styling*/
+
 .box:nth-child(2) {
   background-color: #6495ED; /* Sad - Soft Blue */
 }
-/*Excited Box Styling*/
+
 .box:nth-child(3) {
   background-color: #FF4500; /* Excited - Vibrant Orange */
 }
-/*Motivated Box Styling*/
+
 .box:nth-child(4) {
   background-color: #32CD32; /* Motivated - Bold Green */
 }
 
+/* Back button container styling */
 .back-button-container {
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px; /* Space above button */
 }
 
+/* Back button styling */
 .back-button {
   padding: 10px 20px;
-  background-color: #4CAF50; 
-  color: white;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
   text-decoration: none;
   font-size: 18px;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth color transition */
 }
 
+/* Hover effect for back button */
 .back-button:hover {
-  background-color: #45a049;
+  background-color: #45a049; /* Darker green */
 }
 
+/* Header box styling */
 .header-box {
   border: 5px solid #333; /* Thick border */
-  padding: 20px 40px; /* 20px padding on top and bottom, 40px padding on left and right */
-  text-align: center;
+  padding: 20px 40px; /* Padding on top/bottom and left/right */
+  text-align: center; /* Center content */
   margin-bottom: 20px; /* Space below */
-  width: 80%; /* Box width */
+  width: 80%; /* Centered box width */
   margin-left: auto;
   margin-right: auto; /* Centers the box */
   background-color: #f9f9f9; /* Light background for contrast */
 }
 
-/* Rainbow effect for the text */
+/* Rainbow effect styling for the header text */
 .header-box h1 {
-  font-size: 2.5em; /* Adjust the font size as needed */
+  font-size: 2.5em; /* Larger font */
   font-weight: bold;
   background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
-  background-clip: text; /* Makes the background gradient clip to the text */
-  -webkit-background-clip: text; /* Ensures it works in webkit browsers (like Chrome) */
-  color: transparent; /* Hides the original text color */
-  animation: rainbow 3s ease infinite; /* Animates the gradient */
+  background-clip: text; /* Clips gradient to text */
+  -webkit-background-clip: text; /* For webkit browsers */
+  color: transparent; /* Hides original text color */
+  animation: rainbow 3s ease infinite; /* Smoothly animates colors */
 }
 
-/* Animation for smooth color transition */
+/* Animation keyframes for smooth color transition in rainbow effect */
 @keyframes rainbow {
   0% {
     background-position: 0% 0%;
